@@ -1,0 +1,156 @@
+---
+label: Config
+hide_body: true
+fields:
+- type: text
+  name: baseURL
+  label: baseURL
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+- type: text
+  name: copyright
+  label: copyright
+- type: number
+  name: paginate
+  label: paginate
+- type: text
+  name: languageCode
+  label: languageCode
+- type: text
+  name: DefaultContentLanguage
+  label: DefaultContentLanguage
+- type: boolean
+  name: enableInlineShortcodes
+  label: enableInlineShortcodes
+- type: text
+  name: footnoteReturnLinkContents
+  label: footnoteReturnLinkContents
+- type: text
+  name: theme
+  label: theme
+- type: field_group
+  name: params
+  label: params
+  fields:
+  - type: text
+    name: facebook
+    label: facebook
+  - type: text
+    name: twitter
+    label: twitter
+  - type: text
+    name: github
+    label: github
+  - type: text
+    name: description
+    label: description
+  - type: file
+    name: logo
+    label: logo
+  - type: list
+    name: mainSections
+    label: mainSections
+- type: field_group
+  name: menu
+  label: menu
+  fields:
+  - type: field_group_list
+    name: main
+    label: main
+    fields:
+    - type: text
+      name: identifier
+      label: identifier
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
+    - type: number
+      name: weight
+      label: weight
+- type: field_group
+  name: taxonomies
+  label: taxonomies
+  fields:
+  - type: text
+    name: category
+    label: category
+  - type: text
+    name: tag
+    label: tag
+  - type: text
+    name: series
+    label: series
+- type: field_group
+  name: privacy
+  label: privacy
+  fields:
+  - type: field_group
+    name: vimeo
+    label: vimeo
+    fields:
+    - type: boolean
+      name: disabled
+      label: disabled
+    - type: boolean
+      name: simple
+      label: simple
+  - type: field_group
+    name: twitter
+    label: twitter
+    fields:
+    - type: boolean
+      name: disabled
+      label: disabled
+    - type: boolean
+      name: enableDNT
+      label: enableDNT
+    - type: boolean
+      name: simple
+      label: simple
+  - type: field_group
+    name: instagram
+    label: instagram
+    fields:
+    - type: boolean
+      name: disabled
+      label: disabled
+    - type: boolean
+      name: simple
+      label: simple
+  - type: field_group
+    name: youtube
+    label: youtube
+    fields:
+    - type: boolean
+      name: disabled
+      label: disabled
+    - type: boolean
+      name: privacyEnhanced
+      label: privacyEnhanced
+- type: field_group
+  name: services
+  label: services
+  fields:
+  - type: field_group
+    name: instagram
+    label: instagram
+    fields:
+    - type: boolean
+      name: disableInlineCSS
+      label: disableInlineCSS
+  - type: field_group
+    name: twitter
+    label: twitter
+    fields:
+    - type: boolean
+      name: disableInlineCSS
+      label: disableInlineCSS
+pages:
+- config.toml

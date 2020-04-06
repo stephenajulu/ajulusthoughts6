@@ -23,6 +23,9 @@ sections:
   label: Homepage
   create: all
   match: "**/*"
+- type: document
+  path: config.toml
+  label: Site configuration
 - type: heading
   label: Docs
 - type: document
@@ -37,7 +40,7 @@ file_template: ":filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.63.1
+  - HUGO_VERSION=0.68.3
   preview_output_directory: public
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"

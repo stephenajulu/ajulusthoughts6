@@ -16,6 +16,10 @@
 This project has been pre-configured to work with [Forestry](https://forestry.io), just import your repository ✨. \
 Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
 
+## Customization
+
+You can customize the theme through the [params in the `config.toml` file](https://github.com/forestryio/casper3-hugo-starter/blob/master/config.toml#L13-L19). Those values are accessible from within Forestry.
+
 ## Deployment and hosting with Netlify
 
 Import your site in [Netlify](https://netlify.com)
