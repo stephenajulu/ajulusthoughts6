@@ -1,40 +1,30 @@
 DefaultContentLanguage = "en"
-author = "Steve Francia"
-baseURL = "https://gohugo.io/"
-copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+author = "Stephen Ajulu"
+baseURL = "https://ajulusthoughts6.netlify.app"
+copyright = "© 2006–2020 Ajulu's Thoughts; All Rights Reserved."
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 languageCode = "en"
-paginate = 3
+paginate = 10
 theme = "casper3"
-title = "Hugo Themes"
+title = "Ajulu's Thoughts"
 [[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"
 weight = 10
 [[menu.main]]
-identifier = "image-credit"
-name = "Image Credit"
-url = "/image-credit/"
-weight = 20
-[[menu.main]]
-identifier = "github-repo-theme"
-name = "Get Theme on Github"
-url = "https://github.com/jonathanjanssens/hugo-casper3"
-weight = 30
-[[menu.main]]
 identifier = "author"
-name = "Author Homepage"
-url = "https://jonathanjanssens.com"
-weight = 40
+name = "Author's Homepage"
+url = "https://stephenajulu.com"
+weight = 20
 [params]
-description = "Just a demo site for the Casper3 theme ported to Hugo"
-facebook = "https://facebook.com"
-github = "https://github.com/jonathanjanssens"
+description = "An Informative Tech, Cybersecurity and Dev Blog"
+facebook = "https://facebook.com/stephenajulu"
+github = "https://github.com/stephenajulu"
 logo = "/images/ghost-transparent.png"
 mainSections = ["post"]
-twitter = "https://twitter.com"
+twitter = "https://twitter.com/stephenajulu"
 [privacy.instagram]
 disabled = false
 simple = true
