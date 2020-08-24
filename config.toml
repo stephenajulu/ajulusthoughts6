@@ -1,7 +1,7 @@
 DefaultContentLanguage = "en"
 author = "Stephen Ajulu"
 baseURL = "https://ajulusthoughts6.netlify.app"
-copyright = "© 2006–2020 Ajulu's Thoughts; All Rights Reserved."
+copyright = "Copyright © 2006–2020 Ajulu's Thoughts; All Rights Reserved."
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 languageCode = "en"
@@ -22,7 +22,7 @@ weight = 20
 description = "An Informative Tech, Cybersecurity and Dev Blog"
 facebook = "https://facebook.com/stephenajulu"
 github = "https://github.com/stephenajulu"
-logo = "/images/ghost-transparent.png"
+logo = "/images/cropped-stephen-1-less-quality-white.png"
 mainSections = ["post"]
 twitter = "https://twitter.com/stephenajulu"
 [privacy.instagram]
