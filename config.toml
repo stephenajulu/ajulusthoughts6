@@ -25,6 +25,7 @@ github = "https://github.com/stephenajulu"
 logo = "/images/cropped-stephen-1-less-quality-white.png"
 mainSections = ["post"]
 twitter = "https://twitter.com/stephenajulu"
+feed = "/feed.xml"
 [privacy.instagram]
 disabled = false
 simple = true
